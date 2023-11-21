@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this milestone, you will define, implement, and evaluate the machine learning model for your project. Your aim should be to improve upon the baseline model and try different approaches to achieve better performance.
+In this stage, you will define, implement, and evaluate the machine learning model for your project. Your aim should be to improve upon the baseline model and try different approaches to achieve better performance.
 
 ## Guidelines
 

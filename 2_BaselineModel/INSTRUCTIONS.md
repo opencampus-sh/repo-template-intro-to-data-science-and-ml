@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this milestone is to establish a baseline model for your project. A baseline model is a simple model that serves as a point of comparison for any subsequent, more complex models you may build.
+The purpose of this stage is to establish a baseline model for your project. A baseline model is a simple model that serves as a point of comparison for any subsequent, more complex models you may build.
 
 ## Guidelines
 
