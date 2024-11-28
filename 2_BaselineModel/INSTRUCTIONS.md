@@ -16,4 +16,4 @@ Implement linear regression model and provide information on the following issue
 
 ## Task
 
-Create an R-script or R-Markdown notebook to conduct your implmentation of the baseline model.
+Create a Jupyter Notebook to conduct your implmentation of the baseline model.

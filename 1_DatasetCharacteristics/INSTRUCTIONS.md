@@ -19,4 +19,4 @@ Provide information on the following issues:
 
 ## Task
 
-Create an R-Markdown notebook to conduct your analysis of the dataset characteristics.
+Create a Jupyter Notebook to conduct your analysis of the dataset characteristics.
