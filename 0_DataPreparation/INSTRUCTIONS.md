@@ -8,17 +8,17 @@ This stage focuses on importing and preparing the dataset for your bakery sales 
 
 Focus on the following key issues:
 
--   **Data Importing**
+- **Data Importing**
 
--   **Merging Data from different sources**
+- **Merging Data from different sources**
 
--   **Data Cleaning**
+- **Data Cleaning**
 
--   **Handling Missing Values**
+- **Handling Missing Values**
 
--   **Constructing New Variables** (Develop and integrate new variables that could significantly influence sales predictions. This may include date-related features (like day of the week, holidays), weather conditions, or special events.)
+- **Constructing New Variables** (Develop and integrate new variables that could significantly influence sales predictions. This may include date-related features (like day of the week, holidays), weather conditions, or special events.)
 
--   **Data Transformation** (e.g., converting metric data to categorical data)
+- **Data Transformation** (e.g., converting metric data to categorical data)
 
 ## Task
 

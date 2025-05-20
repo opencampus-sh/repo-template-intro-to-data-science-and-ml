@@ -20,4 +20,4 @@ Provide information on the following issues:
 
 ## Task
 
-Create an R-script or R-markdown notebook to conduct your model implementation and evaluation.
+Create a Jupyter Notebook to conduct your model implementation and evaluation.
