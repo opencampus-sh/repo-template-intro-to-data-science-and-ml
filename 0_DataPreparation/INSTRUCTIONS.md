@@ -2,7 +2,7 @@
 
 ## Overview
 
-This stage focuses on importing and preparing the dataset for your bakery sales forecasting project. Efficient and accurate data preparation is fundamental for successful forecasting models. The task includes importing the dataset into R, cleaning it, and constructing new variables that are pertinent to forecasting sales.
+This stage focuses on importing and preparing the dataset for your bakery sales forecasting project. Efficient and accurate data preparation is fundamental for successful forecasting models. The task includes importing the dataset into Python, cleaning it, and constructing new variables that are pertinent to forecasting sales.
 
 ## Guidelines
 
@@ -22,4 +22,4 @@ Focus on the following key issues:
 
 ## Task
 
-Create an R-script to conduct the data import and preparation process. Ensure each step is well-documented.
+Create a Jupyter Notebook or Python-script to conduct the data import and preparation process. Ensure each step is well-documented.
