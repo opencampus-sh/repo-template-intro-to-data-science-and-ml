@@ -30,4 +30,6 @@ Regression
 
 ## Cover Image
 
-![](CoverImage/cover_image.png)
+[Replace `CoverImage/cover_image.png` with an image that represents your project.]
+
+![Cover image](CoverImage/cover_image.png)
