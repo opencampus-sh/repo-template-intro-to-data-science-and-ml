@@ -45,6 +45,13 @@ sales = pd.read_csv(BASE_URL + "umsatzdaten_gekuerzt.csv")
 
 This repository uses [uv](https://docs.astral.sh/uv/). To reproduce the results, clone the repository and run `uv sync`; then select the Python interpreter from `.venv` as kernel for the notebooks. Add packages with `uv add <package>` so that `pyproject.toml` and `uv.lock` stay up to date for the whole team.
 
+### Agent skills
+
+The project uses the [agentic data science skills](https://github.com/steffen74/agentic-data-science) (`/setup-ds-project`, `/grill-question`, `/explore-data`, …).
+
+- **Claude Code (CLI or VS Code extension):** nothing to install. When you open this folder for the first time, Claude Code asks whether you trust it: answer **yes**. The repository’s `.claude/settings.json` then loads the skills as a plugin and keeps them up to date with each new release. If the skills do not show up, check that VS Code is not in Restricted Mode and restart Claude Code.
+- **GitHub Copilot, Codex, Cursor or another agent:** install the skills into this repository once with `npx skills@latest add steffen74/agentic-data-science` (needs [Node.js](https://nodejs.org/) 22.20 or newer) and commit them, so the whole team has them. If the installer asks which agents to install for, leave out Claude Code: it already gets the skills from the plugin. This makes a copy: run the command again when a new version is announced in the course room.
+
 
 ## Cover Image
 

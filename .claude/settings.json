@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "agentic-data-science": {
+      "source": {
+        "source": "github",
+        "repo": "steffen74/agentic-data-science"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "agentic-data-science@agentic-data-science": true
+  }
+}
