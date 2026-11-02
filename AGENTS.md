@@ -12,7 +12,7 @@ Forecast the daily turnover of a bakery branch in Kiel for six product groups (b
 
 ## Client and audiences
 
-- **Client:** Anna Petersen, the operations manager of the bakery (a fictional persona of the course, so her name is not personal data). She decides every afternoon how much is baked for the next day. She is not a data scientist and needs clear recommendations without jargon.
+- **Client:** the operations manager of the bakery, who decides every afternoon how much is baked for the next day. The operations manager is not a data scientist and needs clear recommendations without jargon.
 - **Technical audience:** a data team that would take over this repository. The READMEs must allow them to reproduce all results.
 
 ## Data
