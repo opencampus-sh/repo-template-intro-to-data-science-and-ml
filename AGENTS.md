@@ -34,7 +34,7 @@ Results are only committed if these checks pass:
 
 - Merges with weather, Kiel Week or other data do not change the number of rows of the sales data, and every combination of date and product group occurs only once.
 - The data is split by date: training 01.07.2013 – 31.07.2017, validation 01.08.2017 – 31.07.2018, test from the Kaggle file. No training date lies after the start of the validation period.
-- Only information that is known the day before the forecast is used as a feature (no data leakage).
+- Only information that is known the day before the forecast is used as a feature (no data leakage). For the Kaggle submission this excludes recent sales: the test year contains no sales, so lagged sales can only be used for models evaluated on validation data.
 - Predictions for Kaggle contain exactly the IDs of the Kaggle test file.
 - Model quality is always reported on validation data, next to the training score, and per product group.
 - [Further checks the team agrees on]
