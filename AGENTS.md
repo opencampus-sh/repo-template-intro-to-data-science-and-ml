@@ -1,24 +1,23 @@
 # Project constitution
 
-This file tells coding agents (Claude Code, Codex, Cursor, …) what this project is about and which rules apply. It is read at the start of every agent session. **Fill in the parts in brackets as a team in week 3 and keep the file up to date.**
-
-## Goal
-
-Forecast the daily turnover of a bakery branch in Kiel for six product groups (bread, rolls, croissants, confectionery, cakes, seasonal bread), so that the bakery can plan its daily production. Forecast quality is measured with the MAPE per product group on the test period 01.08.2018 – 31.07.2019 (Kaggle competition of the course).
+This file tells coding agents (Claude Code, Codex, Cursor, …) what this project is about and which rules apply. It is read at the start of every agent session. The course infrastructure below is filled in. Your team adds the rest in week 3: `/setup-ds-project` adds a section that points to your canvas, glossary and decision log, and `/grill-question` fills the canvas.
 
 ## Team
 
 [Names and who is responsible for what, e.g. data preparation, baseline model, neural network, presentation.]
 
-## Client and audiences
-
-- **Client:** the operations manager of the bakery, who decides every afternoon how much is baked for the next day. The operations manager is not a data scientist and needs clear recommendations without jargon.
-- **Technical audience:** a data team that would take over this repository. The READMEs must allow them to reproduce all results.
-
 ## Data
 
 - Sales, weather and Kiel Week data: see the [dataset documentation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/data/bakery/README.md). Load the files from `https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/`.
 - Additional data sources: [list them with link and the variables created from them]
+
+## Given by the course competition
+
+These facts are fixed by the [Kaggle competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6) of the course. They are not team decisions:
+
+- Forecast the daily turnover (`Umsatz`) of each of the six product groups for every day from 01.08.2018 to 31.07.2019.
+- Sales data ends on 31.07.2018; the competition period has no sales.
+- The score is the MAPE per product group. A submission has one prediction per ID of the Kaggle test file.
 
 ## Conventions
 
@@ -28,21 +27,11 @@ Forecast the daily turnover of a bakery branch in Kiel for six product groups (b
 - Weekdays are ordered Monday to Sunday, never alphabetically.
 - [Further team conventions, e.g. naming of files and variables]
 
-## Checks
-
-Results are only committed if these checks pass:
-
-- Merges with weather, Kiel Week or other data do not change the number of rows of the sales data, and every combination of date and product group occurs only once.
-- The data is split by date: training 01.07.2013 – 31.07.2017, validation 01.08.2017 – 31.07.2018, test from the Kaggle file. No training date lies after the start of the validation period.
-- Only information that is known the day before the forecast is used as a feature (no data leakage). For the Kaggle submission this excludes recent sales: the test year contains no sales, so lagged sales can only be used for models evaluated on validation data.
-- Predictions for Kaggle contain exactly the IDs of the Kaggle test file.
-- Model quality is always reported on validation data, next to the training score, and per product group.
-- [Further checks the team agrees on]
-
 ## How the agent should work
 
 - Explain what you do in plain language and name the concept behind it. Many team members are not programmers.
 - State your plan before you change code, and point out what we should check in the results.
 - Never invent results: run the code and report what it actually returns.
+- Questions about the decision, the audiences, what counts as success, what is known in advance, how to split the data and which checks to run are the team’s to decide. If the canvas or the decision log does not settle them yet, ask; do not decide them yourself.
 - Only work inside this repository. Ask before deleting files, installing software outside the project environment or pushing to GitHub.
 - Never write passwords, API keys or personal data into files.
