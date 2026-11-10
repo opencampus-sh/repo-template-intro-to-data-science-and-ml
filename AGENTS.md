@@ -11,14 +11,6 @@ This file tells coding agents (Claude Code, Codex, Cursor, …) what this projec
 - Sales, weather and Kiel Week data: see the [dataset documentation](https://github.com/opencampus-sh/intro-to-data-science-and-ml/blob/main/data/bakery/README.md). Load the files from `https://raw.githubusercontent.com/opencampus-sh/intro-to-data-science-and-ml/main/data/bakery/`.
 - Additional data sources: [list them with link and the variables created from them]
 
-## Given by the course competition
-
-These facts are fixed by the [Kaggle competition](https://www.kaggle.com/t/d832497c95d744de915ad9eb80ad9ed6) of the course. They are not team decisions:
-
-- Forecast the daily turnover (`Umsatz`) of each of the six product groups for every day from 01.08.2018 to 31.07.2019.
-- Sales data ends on 31.07.2018; the competition period has no sales.
-- The score is the MAPE per product group. A submission has one prediction per ID of the Kaggle test file.
-
 ## Conventions
 
 - Environment: managed with **uv**. Install with `uv sync`; add packages only with `uv add <package>` (never `pip install`), and commit `pyproject.toml` and `uv.lock`.
